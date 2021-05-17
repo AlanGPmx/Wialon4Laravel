@@ -34,10 +34,10 @@ class Wialon
     /// METHODS
 
     /** constructor */
-    function __construct($scheme = 'http', $host = 'hst-api.wialon.com', $port = '', $sid = '', $extra_params = array(), $token = null)
+    function __construct($scheme = 'https', $host = 'hst-api.wialon.com', $port = '', $sid = '', $extra_params = array(), $token = null)
     {
 
-        $this->token = config('services.wialon.token', $token);
+        $this->token = config('services.wialon.token', env("WIALON_SECRET", null));
         $this->sid = $sid;
         $this->default_params = array_replace(array(), (array)$extra_params);
         $this->base_api_url = sprintf('%s://%s%s/wialon/ajax.html?', $scheme, $host, mb_strlen($port) > 0 ? ':' . $port : '');
