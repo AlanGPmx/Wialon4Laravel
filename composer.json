@@ -1,5 +1,5 @@
 {
-  "name": "Wialon2laravel/laravel-wialon",
+  "name": "wialon2laravel/laravel-wialon",
   "description": "Composer laravel ready implementation for php-wialon",
   "type": "library",
   "license": "MIT",
