@@ -8,11 +8,11 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use Punksolid\Wialon\Unit;
+use Wialon2laravel\Wialon\Unit;
 
 class UnitsTest extends TestCase
 {
@@ -56,8 +56,8 @@ class UnitsTest extends TestCase
     {
         $units = Unit::findMany([18158664, 18158698]);
 
-        $this->assertEquals("BicicletaPunksolid15", $units->first()->getName());
-        $this->assertEquals("BicicletaPunksolid8", $units->last()->getName());
+        $this->assertEquals("BicicletaWialon2laravel15", $units->first()->getName());
+        $this->assertEquals("BicicletaWialon2laravel8", $units->last()->getName());
     }
 
     public function test_find_unit_by_id()
@@ -65,7 +65,7 @@ class UnitsTest extends TestCase
 
         $unit = Unit::find(18158671);
 
-        $this->assertEquals("BicicletaPunksolid15", $unit->getName());
+        $this->assertEquals("BicicletaWialon2laravel15", $unit->getName());
         $this->assertObjectHasAttribute("id", $unit, "Unit has id");
         $this->assertObjectHasAttribute("mu", $unit, "Unit has measure units");
         $this->assertObjectHasAttribute("nm", $unit, "Unit has name");

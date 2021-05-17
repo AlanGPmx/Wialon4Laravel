@@ -8,18 +8,18 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
-use Punksolid\Wialon\Notification\WialonText;
+use Wialon2laravel\Wialon\Notification\WialonText;
 use Exception;
 use Illuminate\Support\Collection;
-use Punksolid\Wialon\Notification\Action;
-use Punksolid\Wialon\Notification\ControlTypeInterface;
+use Wialon2laravel\Wialon\Notification\Action;
+use Wialon2laravel\Wialon\Notification\ControlTypeInterface;
 
 /**
  * Class Notification
  *
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  * @property long $id  notification ID
  * @property text $n  name
  * @property text $txt  text of notification

@@ -8,7 +8,7 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 
 class Item

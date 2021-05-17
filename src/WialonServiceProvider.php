@@ -1,6 +1,6 @@
 <?php
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 use Illuminate\Support\ServiceProvider;
 

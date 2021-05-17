@@ -1,6 +1,6 @@
 <?php
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 /* Classes for working with Wialon RemoteApi using PHP
 *
@@ -19,7 +19,7 @@ use Illuminate\Validation\ValidationException;
 
 /**
  * Class Wialon api wrapper
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  */
 class Wialon
 {

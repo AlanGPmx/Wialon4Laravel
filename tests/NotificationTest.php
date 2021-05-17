@@ -8,27 +8,27 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Punksolid\Wialon\ControlType;
-use Punksolid\Wialon\Geofence;
-use Punksolid\Wialon\Notification\GeofenceControlType;
-use Punksolid\Wialon\Notification\PanicButtonControlType;
-use Punksolid\Wialon\Notification;
-use Punksolid\Wialon\Notification\SensorControlType;
-use Punksolid\Wialon\Notification\SpeedControlType;
-use Punksolid\Wialon\NotificationType;
-use Punksolid\Wialon\Resource;
-use Punksolid\Wialon\Unit;
-use Punksolid\Wialon\Wialon;
+use Wialon2laravel\Wialon\ControlType;
+use Wialon2laravel\Wialon\Geofence;
+use Wialon2laravel\Wialon\Notification\GeofenceControlType;
+use Wialon2laravel\Wialon\Notification\PanicButtonControlType;
+use Wialon2laravel\Wialon\Notification;
+use Wialon2laravel\Wialon\Notification\SensorControlType;
+use Wialon2laravel\Wialon\Notification\SpeedControlType;
+use Wialon2laravel\Wialon\NotificationType;
+use Wialon2laravel\Wialon\Resource;
+use Wialon2laravel\Wialon\Unit;
+use Wialon2laravel\Wialon\Wialon;
 
 
 class NotificationTest extends TestCase
 {
     /**
      * @return array
-     * @throws \Punksolid\Wialon\WialonErrorException
+     * @throws \Wialon2laravel\Wialon\WialonErrorException
      */
     public function getBasics(): array
     {

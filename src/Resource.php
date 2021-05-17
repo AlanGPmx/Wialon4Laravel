@@ -8,14 +8,14 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 use Illuminate\Support\Collection;
 use phpDocumentor\Reflection\DocBlock\StandardTagFactory;
 
 /**
  * Class Resource
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  *
  * @property text $nm  name
  * @property uint $cls  superclass ID: "avl_resource"

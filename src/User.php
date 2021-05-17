@@ -8,7 +8,7 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 //{#14
 
@@ -72,7 +72,7 @@ namespace Punksolid\Wialon;
 
 /**
  * Class User
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  * @property int $id ID
  * @property string $nm NAME
  * @property string $cls ID of sperclass "user"

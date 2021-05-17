@@ -8,14 +8,14 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 use Illuminate\Support\Collection;
 
 /**
  *
  * Class Unit
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  * @property int $id unit ID
  * @property int $mu  measure units: 0 - si, 1 - us, 2 - imperial, 3 - metric with gallons
  * @property string $nm name

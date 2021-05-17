@@ -8,14 +8,14 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use Punksolid\Wialon\Account;
-use Punksolid\Wialon\Resource;
-use Punksolid\Wialon\Wialon;
+use Wialon2laravel\Wialon\Account;
+use Wialon2laravel\Wialon\Resource;
+use Wialon2laravel\Wialon\Wialon;
 
 
 class ResourceTest extends TestCase
@@ -46,7 +46,7 @@ class ResourceTest extends TestCase
     public function test_create_and_destroy_resource()
     {
         /**
-         * Punksolid\Wialon\Resource {#233
+         * Wialon2laravel\Wialon\Resource {#233
          * +nm: "punksolid_test3"
          * +cls: 3
          * +id: 18158941

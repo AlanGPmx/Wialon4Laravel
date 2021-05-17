@@ -8,15 +8,15 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 use Illuminate\Support\Collection;
 use Illuminate\Validation\ValidationException;
-use Punksolid\Wialon\WialonErrorException;
+use Wialon2laravel\Wialon\WialonErrorException;
 
 /**
  * Class Geofence
- * @package Punksolid\Wialon
+ * @package Wialon2laravel\Wialon
  *
  * @property text $n     name
  * @property text $d     description
@@ -118,7 +118,7 @@ class Geofence extends Item
      * Gives Geofence by exact name
      * @param $name
      * @return null|Geofence
-     * @throws \Punksolid\Wialon\WialonErrorException
+     * @throws \Wialon2laravel\Wialon\WialonErrorException
      */
     public static function findByName($name): ?self
     {
@@ -189,7 +189,7 @@ class Geofence extends Item
     /**
      * Returns all geofences of all resources
      * @return Collection
-     * @throws \Punksolid\Wialon\WialonErrorException
+     * @throws \Wialon2laravel\Wialon\WialonErrorException
      */
     public static function all(): Collection
 

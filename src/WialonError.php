@@ -1,4 +1,4 @@
-<?php namespace Punksolid\Wialon;
+<?php namespace Wialon2laravel\Wialon;
 /**
  * Created by PhpStorm.
  * User: punksolid
@@ -8,7 +8,7 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon;
+namespace Wialon2laravel\Wialon;
 
 /** Wialon errorCode to textMessage converter
  */

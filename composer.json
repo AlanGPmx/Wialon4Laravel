@@ -1,5 +1,5 @@
 {
-  "name": "punksolid/laravel-wialon",
+  "name": "Wialon2laravel/laravel-wialon",
   "description": "Composer laravel ready implementation for php-wialon",
   "type": "library",
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Punksolid\\Wialon\\": "src"
+      "Wialon2laravel\\Wialon\\": "src"
     }
   },
   "require-dev": {
@@ -30,7 +30,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Punksolid\\Wialon\\WialonServiceProvider"
+        "Wialon2laravel\\Wialon\\WialonServiceProvider"
       ]
     }
   }

@@ -1,16 +1,16 @@
 <?php
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use App\Http\Resources\UsersResource;
 use App\User;
 use Faker\Factory;
 use Orchestra\Testbench\TestCase;
-use Punksolid\Wialon\Geofence;
-use Punksolid\Wialon\Notification;
-use Punksolid\Wialon\Resource;
-use Punksolid\Wialon\Unit;
-use Punksolid\Wialon\Wialon;
+use Wialon2laravel\Wialon\Geofence;
+use Wialon2laravel\Wialon\Notification;
+use Wialon2laravel\Wialon\Resource;
+use Wialon2laravel\Wialon\Unit;
+use Wialon2laravel\Wialon\Wialon;
 
 /**
  *  Corresponding Class to test YourClass class
@@ -61,7 +61,7 @@ class WialonTest extends TestCase
             echo $wialon_api->core_search_item('{"id":717361,"flags":"0x1"}');
             $wialon_api->logout();
         } else {
-            echo \Punksolid\Wialon\WialonError::error($json['error']);
+            echo \Wialon2laravel\Wialon\WialonError::error($json['error']);
         }
 
         $this->assertArrayHasKey("eid", $json);
@@ -91,10 +91,10 @@ class WialonTest extends TestCase
 
     public function test_get_user_name()
     {
-        $wialon_api = new \Punksolid\Wialon\Wialon();
+        $wialon_api = new \Wialon2laravel\Wialon\Wialon();
         $result = $wialon_api->login("5dce19710a5e26ab8b7b8986cb3c49e58C291791B7F0A7AEB8AFBFCEED7DC03BC48FF5F8");
         $result = json_decode($result);
-        $mi_user = new \Punksolid\Wialon\User($result->user);
+        $mi_user = new \Wialon2laravel\Wialon\User($result->user);
 
         $this->assertEquals("SdkDemo", $mi_user->nm);
 

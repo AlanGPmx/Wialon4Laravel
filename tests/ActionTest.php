@@ -1,9 +1,9 @@
 <?php
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Punksolid\Wialon\Notification\Action;
+use Wialon2laravel\Wialon\Notification\Action;
 
 class ActionTest extends TestCase
 {

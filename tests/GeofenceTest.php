@@ -8,14 +8,14 @@
  * Updated By Alan Garduño
  */
 
-namespace Punksolid\Wialon\Tests;
+namespace Wialon2laravel\Wialon\Tests;
 
 use Faker\Factory;
 use function GuzzleHttp\Psr7\str;
 use Illuminate\Support\Collection;
 use Orchestra\Testbench\TestCase;
-use Punksolid\Wialon\Geofence;
-use Punksolid\Wialon\Resource;
+use Wialon2laravel\Wialon\Geofence;
+use Wialon2laravel\Wialon\Resource;
 
 
 class GeofenceTest extends TestCase
