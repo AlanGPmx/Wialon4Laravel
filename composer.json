@@ -1,0 +1,37 @@
+{
+  "name": "punksolid/laravel-wialon",
+  "description": "Composer laravel ready implementation for php-wialon",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jose Palazuelos",
+      "email": "punksolid@gmail.com"
+    },
+    {
+      "name": "Alan Garduño",
+      "email": "contacto@alangp.dev.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "laravel/framework": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Punksolid\\Wialon\\": "src"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "~5.0",
+    "phpunit/phpunit": "^9.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Punksolid\\Wialon\\WialonServiceProvider"
+      ]
+    }
+  }
+}
